@@ -30,7 +30,7 @@ print(choices)
 
 # Example 4: 
 
-def check_win(player, computer):
+def check_win(player, computer): #nag-pass-in ng dalawang variable
   print(f"You chose {player}, computer chose {computer}")
   if player == computer:
     return "It's a tie"
