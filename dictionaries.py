@@ -31,3 +31,10 @@ print("age" in dog)
 print(dog.pop("name"))
 print(dog)
 print(dog.popitem()) #removes the last key-value pair inserted
+
+cat = {"name" : "Mickey", "age": 5, "color": "blue"}
+
+del cat["color"]
+print(cat) 
+
+catCopy = cat.copy() #makes a copy of the dictionary
